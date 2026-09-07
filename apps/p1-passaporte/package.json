@@ -1,0 +1,16 @@
+{
+  "name": "passaporte-fiscal-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker: Calculadora de Valor do Crédito + Passaporte Fiscal assinado (Ed25519) com ruleset determinístico e rating A/B/C.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test.mjs",
+    "gen-key": "node scripts/gen-key.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  }
+}

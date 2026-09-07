@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "passaporte-fiscal",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-01",
+  "account_id": "749b2e9b3642e4b03321d5830e81c195",
+  "workers_dev": true,
+  "observability": { "enabled": true }
+  // Secret (não versionar): SIGNING_KEY_JWK  →  npx wrangler secret put SIGNING_KEY_JWK
+  // Gere a chave com: node scripts/gen-key.mjs
+}
